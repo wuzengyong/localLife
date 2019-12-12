@@ -1,10 +1,4 @@
 <!-- 轮播图 -->
-<!-- 
-  indicator-dots: 显示小圆点
-  autoplay： 自动切换
-  interval： 数字， 指定切换到时间间隔
-  circular: 开启衔接动画， 无缝轮播
- -->
 <swiper indicator-dots autoplay interval='2000' circular>
   <swiper-item wx:for="{{imgList}}" wx:key="id">
     <image mode="widthFix"  src='{{item.image}}'></image>
